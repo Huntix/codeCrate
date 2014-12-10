@@ -1,0 +1,35 @@
+#include "stdafx.h"
+using namespace std;
+#include <iostream>
+#include <stdlib.h>
+#include <conio.h>
+ 
+ 
+void main(){
+        int *A;
+        int n,i,suma;
+        cout<<"Maksimalen Broi elementi: ";cin>>n;
+    if(!(A=new int[n])){
+                cout<<"Nqma dostatuchno pamet";return;
+        }
+        for(i=0;i<n;i++){
+                cout<<"Vuvedete ["<<i<<"] -iq element";cin>>A[i];
+        }
+        suma=0;
+        for(i=0;i<n;i++){
+        if(A[i]!=0)
+        suma=suma+A[i];
+       
+        }
+ 
+        cout<<"Sumata na elementite e: "<<suma<<endl;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        system("pause");
+}
