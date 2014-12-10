@@ -1,4 +1,3 @@
-```
 //Basic Calculator using functions
 #include "stdafx.h"
 using namespace std;
@@ -62,4 +61,3 @@ void main(){
 	
 	system("pause");
 }
-```
